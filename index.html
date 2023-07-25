@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link rel="shortcut icon" href="todo.png" type="image/png"/>
+    <meta name="description" content="Stay organized and on top of tasks with our sleek to-do list website. Boost productivity with our user-friendly interface and collaboration features."/>
+    <link rel="stylesheet" href="todo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>Todo App</header>
+        <div class="inputField">
+            <input type="text" placeholder="Add your task">
+            <button><i class="fas fa-plus"></i></button>
+        </div>
+        <ul class="todoList">
+        </ul>
+        <div class="footer">
+            <span>You have <span class="pendingTasks"></span> pending tasks</span>
+            <button>Clear All</button>
+        </div>
+    </div>
+    <script src="todo.js"></script>
+</body>
+
+</html>
